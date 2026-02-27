@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compress PDF - YOURPDFPALACE</title>
+    <link rel="stylesheet" href="compress.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Compress PDF</h1>
+
+    <div id="dropArea" class="drop-area">
+        <p>Drag & Drop PDF here</p>
+        <p>or</p>
+        <input type="file" id="fileInput" accept="application/pdf">
+    </div>
+
+    <div class="input-section">
+        <label>Enter Target File Size (MB)</label>
+        <input type="number" id="targetSize" placeholder="e.g. 2">
+    </div>
+
+    <div id="status"></div>
+
+    <button id="downloadBtn" class="btn" style="display:none;">
+        Download Compressed File
+    </button>
+
+</div>
+
+<script src="compress.js"></script>
+</body>
+</html>
